@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+   
     web,
     javascript,
     typescript,
@@ -13,16 +13,15 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
+   qci,
+    
     starbucks,
-    tesla,
-    shopify,
+   
     carrent,
     jobit,
     tripguide,
-    threejs,
+    ecom,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -69,7 +68,7 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Java",
       icon: typescript,
     },
     {
@@ -102,57 +101,33 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "SDE Intern",
+      company_name: "OnSolve LLC",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2022 -December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented REST APIs,models and routes using Springboot and collaborated with various teams.",
+        "Potentially optimized different routes for functions like contact Imports, sending and displaying alerts.",
+        "Enabled Bulk Imports of contacts upto 10000 Users.",
+        "Fixed Email and Contact Validation feature to prevent bogus alerts.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "SDE Intern",
+      company_name: "Quality Council Of India",
+      icon: qci,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Development of frontend of Project Tracker Tool of QCI using ReactJS",
+        "Deployed Project Tracker Tool to be used potentially by over 1000 people in the organization",
+        "Developed frontend of the Media Management Portal to upload media files using ReactJS",
+        "Wrote Models, Routes and MongoDB Schemas for file management using ExpressJS",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
+    
   ];
   
   const testimonials = [
@@ -184,9 +159,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Admin Dashboard",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform developed using ReactJS,Material-UI,Nivo and used RTK Query to call the APIs for data analysis and visualization",
       tags: [
         {
           name: "react",
@@ -197,24 +172,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Material-UI",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ShivamSingh226/dashboard",
     },
     {
-      name: "Job IT",
+      name: "Pharmaceutical Startup",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Frontend Application designed using ReactJS for a Bangalore-based Pharmaceutical Startup dealing with Active Pharmaceutical Ingredients, Supplements and medicines",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "styled-components",
           color: "green-text-gradient",
         },
         {
@@ -223,28 +198,46 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ShivamSingh226/DKApp",
     },
     {
-      name: "Trip Guide",
+      name: "Hotel Booking App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive hotel booking platform that allows users to book hotels and resorts,upload images and add new hotels available.",
       tags: [
         {
-          name: "nextjs",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "ExpressJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ShivamSingh226/booking-app",
+    },
+    {
+      name: "Ecommerce Website",
+      description:
+        "An ecommerce website with Add to cart,sorting and filtering functionality",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "green-text-gradient",
+        },
+       
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/ShivamSingh226/Assignment-2",
     },
   ];
   
