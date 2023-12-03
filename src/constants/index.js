@@ -118,7 +118,7 @@ import {
       company_name: "Quality Council Of India",
       icon: qci,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2023 - June 2023",
       points: [
         "Development of frontend of Project Tracker Tool of QCI using ReactJS",
         "Deployed Project Tracker Tool to be used potentially by over 1000 people in the organization",
