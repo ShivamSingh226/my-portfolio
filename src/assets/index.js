@@ -25,7 +25,7 @@ import qci from "./company/QCI.png";
 
 import starbucks from "./company/starbucks.png";
 
-import nextjs from "./nextjs.png"
+import nextjs from "./tech/nextjs.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
