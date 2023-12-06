@@ -21,6 +21,7 @@ import {
     jobit,
     tripguide,
     ecom,
+    paint,
     
   } from "../assets";
   
@@ -238,6 +239,24 @@ import {
       ],
       image: ecom,
       source_code_link: "https://github.com/ShivamSingh226/Assignment-2",
+    },
+    {
+      name: "Painting Canvas",
+      description:
+        "A painting canvas made with NextJS and TailWind-CSS with undo,redo and erase features",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+       
+      ],
+      image: paint,
+      source_code_link: "https://github.com/ShivamSingh226/painting-canvas",
     },
   ];
   
