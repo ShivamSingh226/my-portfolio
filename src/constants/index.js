@@ -14,7 +14,7 @@ import {
     mongodb,
     git,
    qci,
-    
+    nextjs,
     starbucks,
    
     carrent,
@@ -75,6 +75,10 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "NextJS",
+      icon: nextjs,
     },
     {
       name: "Redux Toolkit",
