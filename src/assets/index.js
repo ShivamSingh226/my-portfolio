@@ -20,7 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import spring_logo from "./tech/spring_logo.png"
 import qci from "./company/QCI.png";
 
 import starbucks from "./company/starbucks.png";
@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import paint from "./paintC.png"
+import prosoai_logo from "./company/prosoai_logo.png"
 export {
   logo,
   backend,
@@ -50,9 +51,11 @@ export {
   reactjs,
   redux,
   tailwind,
+  spring_logo,
   typescript,
   threejs,
  qci,
+ prosoai_logo,
  ecom,
   starbucks,
   paint,

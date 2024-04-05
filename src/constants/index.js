@@ -14,7 +14,9 @@ import {
     mongodb,
     git,
    qci,
+   prosoai_logo,
     nextjs,
+    spring_logo,
     starbucks,
    
     carrent,
@@ -101,6 +103,10 @@ import {
       name: "git",
       icon: git,
     },
+    {
+      name:"spring",
+      icon:spring_logo,
+    }
     
   ];
   
@@ -129,6 +135,18 @@ import {
         "Deployed Project Tracker Tool to be used potentially by over 1000 people in the organization",
         "Developed frontend of the Media Management Portal to upload media files using ReactJS",
         "Wrote Models, Routes and MongoDB Schemas for file management using ExpressJS",
+      ],
+    },
+    {
+      title: "Associate Consultant",
+      company_name: "Proso AI Technologies",
+      icon: prosoai_logo,
+      iconBg: "#E6DEDD",
+      date: "December 2023 - March 2024",
+      points: [
+        "Involved in strategic guidance and implementation support for Dynamics 365 ERP solutions",
+        "Leveraged pandas,numpy,matploylib and seaborn to cause 25% reduction in project timeline for ERP initiatives",
+        "Played a pivotal role in contract negotiations and vendor agreements for Dynamics 365 ERP projects",
       ],
     },
    
